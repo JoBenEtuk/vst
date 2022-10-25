@@ -23,7 +23,7 @@ const Login = () => {
 		setTimeout(() => {
 			if (users.email === formData.email) {
 				setError(false)
-				navigate('/')
+				navigate('/home')
 			} else setError(true)
 
 			setLoading(false)
